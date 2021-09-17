@@ -4,24 +4,25 @@
 <br>
 ![MongoDB](https://img.shields.io/badge/-MongoDB-009900?logo=mongodb&logoColor=white&style=for-the-badge)
 ![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg?style=for-the-badge)
+![Docker](https://img.shields.io/badge/Docker-blue?style=for-the-badge&logo=docker&logoColor=white)
+![IntellijIdea](https://img.shields.io/badge/Made%20for-IntellijIdea-1f425f.svg?style=for-the-badge)
 <br>
-[![GitHub issues](https://img.shields.io/github/issues/kathesama/bck_node_mongo_clean?style=plastic)](https://github.com/kathesama/bck_node_mongo_clean/issues)
-[![GitHub forks](https://img.shields.io/github/forks/kathesama/bck_node_mongo_clean?style=plastic)](https://github.com/kathesama/bck_node_mongo_clean/network)
-[![GitHub stars](https://img.shields.io/github/stars/kathesama/bck_node_mongo_clean?style=plastic)](https://github.com/kathesama/bck_node_mongo_clean/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/kathesama/arduino_cloud?style=plastic)](https://github.com/kathesama/arduino_cloud/issues)
+[![GitHub forks](https://img.shields.io/github/forks/kathesama/arduino_cloud?style=plastic)](https://github.com/kathesama/arduino_cloud/network)
+[![GitHub stars](https://img.shields.io/github/stars/kathesama/arduino_cloud?style=plastic)](https://github.com/kathesama/arduino_cloud/stargazers)
 <br>
-![GitHub last commit](https://img.shields.io/github/last-commit/kathesama/bck_node_mongo_clean?color=red&style=plastic)
-![GitHub version commits](https://img.shields.io/github/commits-since/kathesama/bck_node_mongo_clean/V2.0.0.svg?color=yellow&style=plastic)
-![GitHub top language](https://img.shields.io/github/languages/top/kathesama/bck_node_mongo_clean?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/kathesama/arduino_cloud?color=red&style=plastic)
+![GitHub version commits](https://img.shields.io/github/commits-since/kathesama/arduino_cloud/V2.0.0.svg?color=yellow&style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/kathesama/arduino_cloud?style=plastic)
 <br>
 ![Maintaned](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=plastic)
 ![OWASP](https://img.shields.io/badge/OWASP%3F-yes-green.svg?style=plastic)
 ![OWASP](https://img.shields.io/badge/CleanCode%3F-yes-green.svg?style=plastic)
-[![GitHub license](https://img.shields.io/github/license/kathesama/bck_node_mongo_clean?style=plastic)](https://github.com/kathesama/bck_node_mongo_clean/blob/main/LICENSE)
-![GitHub repo size](https://img.shields.io/github/repo-size/kathesama/bck_node_mongo_clean?style=plastic)
+[![GitHub license](https://img.shields.io/github/license/kathesama/arduino_cloud?style=plastic)](https://github.com/kathesama/arduino_cloud/blob/main/LICENSE)
+![GitHub repo size](https://img.shields.io/github/repo-size/kathesama/arduino_cloud?style=plastic)
 <br>
 
-# bck_node_mongo_clean
+# arduino_cloud
 Backend for Farm proyect
 
 Para crear un proyecto desde cero con Husky, abrir una consola y:
@@ -125,7 +126,7 @@ Comandos útiles de Git.
 > docker buildx create --name mybuilderconfig --use
 
 3. Build the image:
-> docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 -f Dockerfile -t kathemica/bck_node_mongo_clean:1.0.0 --push .
+> docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 -f Dockerfile -t kathemica/arduino_cloud:1.0.0 --push .
 
 ---
 # Running container
@@ -149,7 +150,7 @@ docker run -d \
 -e DB_NAME= "INSERT YOUR DATABASE NAME HERE" \
 -e isHTTPS= "Will I to connect with HTTPS?" \
 -v $(pwd)/certs:/usr/app/certs \
-kathemica/bck_node_mongo_clean:1.0.1
+kathemica/arduino_cloud:1.0.1
 
 ```
 *$(pwd)*: is the actual path.
