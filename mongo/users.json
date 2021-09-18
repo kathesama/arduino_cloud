@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "612675ea31b19d5cd089aa51"
+  },
+  "role": {
+    "$oid": "61057d45c10af6309cfe278b"
+  }
+  "isActive": true,
+  "password": "$2a$10$g9XsbUX.2Uzqjjx7bQkIi.hVmZK7nPQB/7NcOISZ0UHoQpGW/9qHO",
+  "email": "somemail@dominiom.com",
+  "firstName": "admin",
+  "lastName": "admin",
+  "age": 0,
+  "image": "",
+  "createdAt": {
+    "$date": "2021-08-25T16:55:06.327Z"
+  },
+  "updatedAt": {
+    "$date": "2021-08-25T16:55:06.327Z"
+  },
+  "__v": 0
+}]

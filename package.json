@@ -8,6 +8,7 @@
         "build": "tsc",
         "build:win": "npm run clean && tsc && npm run copy-files",
         "start": "node --no-warnings --experimental-modules ./src/main/server/server.js",
+        "start:tsc": "cross-env NODE_ENV=development node --no-warnings --experimental-modules ./dist/main/server/server.js",
         "start:compiled": "npm run build:win && cross-env NODE_ENV=development node --experimental-modules ./dist/main/server/server.js",
         "start:dev": "cross-env NODE_ENV=development ts-node-dev --transpile-only --respawn --ignore-watch node_modules ./src/main/server/server.ts",
         "start:devb": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules ./src/main/server/server.ts",
@@ -126,6 +127,7 @@
         "supertest": "^6.1.3",
         "swagger-ui-express": "^4.1.6",
         "tsoa": "^3.8.0",
+        "uuid": "^8.3.2",
         "validator": "^13.6.0",
         "winston": "^3.3.3"
     }
